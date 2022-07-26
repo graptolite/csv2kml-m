@@ -29,7 +29,7 @@ Edit the CONFIGURATION section at the top of `csv2kml_script.m` as necessary. Al
 - *CSV_FILE*: name of csv file with the necessary column headers
 - *KML_FOLDER_NAME*: name of the KML folder that will hold all the points of interest.
 - *KML_FILE_NAME*: name of the file the kml is written to.
-- *IMG_DIR*: folder that holds all the images - absolute paths are preferred for this.
+- *IMG_DIR*: folder that holds all the images - absolute paths are preferred for this, but for quickstart, the default folder can be used and new images stored in the `imgs` folder.
 - *ICON_SCALE*: scale (controlling size) of the icon for all location markers on the map.
 - *ICON_MARKER*: image used for all location markers on the map.
 - *MAX_ITER*: maximum number of iterations when calculating lat lon from cartesian-type coords - for the most part, this can probably be ignored.
