@@ -24,7 +24,7 @@ Store data in `data.csv` in table format:
 - *desc*: \[optional\] Description to accompany the site.
 
 ## Configuation
-Edit the CONFIGURATION section at the top of csv2kml_script.m as necessary. All of these are required but have presets values already.
+Edit the CONFIGURATION section at the top of `csv2kml_script.m` as necessary. All of these are required but have presets values already.
  
 - *CSV_FILE*: name of csv file with the necessary column headers
 - *KML_FOLDER_NAME*: name of the KML folder that will hold all the points of interest.
