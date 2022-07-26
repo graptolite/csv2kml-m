@@ -1,3 +1,17 @@
+% Copyright (C) 2022  Yingbo Li
+% This program is free software: you can redistribute it and/or modify
+% it under the terms of the GNU General Public License as published by
+% the Free Software Foundation, either version 3 of the License, or
+% (at your option) any later version.
+
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+
+% You should have received a copy of the GNU General Public License
+% along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 %% CONFIG
 % name of csv file with the necessary column headers
 CSV_FILE = "data.csv";
@@ -21,6 +35,10 @@ ICON_MARKER = "http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png";
 % maximum number of iterations when calculating lat lon from cartesian-type
 % coords
 MAX_ITER = 10;
+
+%% FUNCTION FOLDERS
+addpath(genpath('kml_funcs'))
+addpath(genpath('coord_funcs'))
 
 %% SCRIPT
 
